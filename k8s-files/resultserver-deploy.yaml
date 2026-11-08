@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
       - name: regcred
       containers:
-      - image: 040443383448.dkr.ecr.us-east-1.amazonaws.com/phonebook-jo/result
+      - image: 315974966113.dkr.ecr.us-east-1.amazonaws.com/phonebook-jo/result
         name: resultserver
         ports:
         - containerPort: 80
